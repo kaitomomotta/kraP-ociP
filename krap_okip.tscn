@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://lesef2khujk7"]
+
+[ext_resource type="PackedScene" uid="uid://cbpr0qpo6kkep" path="res://levels/testLevel.tscn" id="1_mpm26"]
+
+[node name="krap okip" type="Node2D"]
+
+[node name="TestLevel" parent="." instance=ExtResource("1_mpm26")]
