@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpb5eeemgurn"
-path="res://.godot/imported/tile_0094.png-c12c4bddb94b502a8d819e8d9c5c0857.ctex"
+uid="uid://bqxdfxf522eq5"
+path="res://.godot/imported/squat.png-eb4d703081ec36c86a86afc0fa7bec6f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Pico-8 Platformer/Default/Tiles/tile_0094.png"
-dest_files=["res://.godot/imported/tile_0094.png-c12c4bddb94b502a8d819e8d9c5c0857.ctex"]
+source_file="res://Pico-8 Platformer/character/squat.png"
+dest_files=["res://.godot/imported/squat.png-eb4d703081ec36c86a86afc0fa7bec6f.ctex"]
 
 [params]
 

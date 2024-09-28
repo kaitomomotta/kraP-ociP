@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvcsbo141vaqp"
-path="res://.godot/imported/tile_0094.png-3afc3a9f5ef40e6a4957670f7e14e58f.ctex"
+uid="uid://cpmdxfr3mmtji"
+path="res://.godot/imported/big.png-b1a287ab02ad4918c1c1e1c1c2e279aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Pico-8 Platformer/Transparent/Tiles/tile_0094.png"
-dest_files=["res://.godot/imported/tile_0094.png-3afc3a9f5ef40e6a4957670f7e14e58f.ctex"]
+source_file="res://Pico-8 Platformer/character/big.png"
+dest_files=["res://.godot/imported/big.png-b1a287ab02ad4918c1c1e1c1c2e279aa.ctex"]
 
 [params]
 
