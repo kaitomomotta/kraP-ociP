@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://c4qrt5dwy6da8"]
+
+[ext_resource type="Script" path="res://game/game.gd" id="1_kdcsi"]
+[ext_resource type="Script" path="res://game/player_manager.gd" id="2_1qqoa"]
+[ext_resource type="PackedScene" uid="uid://cbpr0qpo6kkep" path="res://levels/testLevel.tscn" id="3_7xyni"]
+
+[node name="Game" type="Node"]
+script = ExtResource("1_kdcsi")
+
+[node name="PlayerManager" type="Node" parent="."]
+script = ExtResource("2_1qqoa")
+
+[node name="TestLevel" parent="." instance=ExtResource("3_7xyni")]
+position = Vector2(-314, 48)
