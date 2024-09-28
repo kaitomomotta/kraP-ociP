@@ -16,6 +16,7 @@ enum Directions {
 }
 var sprite_direction : Directions
 
+
 @onready var sprite : Sprite2D = $Sprite2D
 
 func init(player_num: int, device: int):
@@ -27,6 +28,9 @@ func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
+		sprite.texture = preload("res://Pico-8 Platformer/character/airborn.png")
+	else:
+		sprite.texture = preload("res://Pico-8 Platformer/character/right.png")
 
 	# Handle jump.
 	if input.is_action_just_pressed("jump") and is_on_floor():
