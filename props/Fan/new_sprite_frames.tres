@@ -1,0 +1,18 @@
+[gd_resource type="SpriteFrames" load_steps=3 format=3 uid="uid://d3i6eckdwo2nv"]
+
+[ext_resource type="Texture2D" uid="uid://ce8recqe88ucy" path="res://props/Fan/Ventilateur2.jpg" id="1_c7a6r"]
+[ext_resource type="Texture2D" uid="uid://cngnny24sg1lm" path="res://props/Fan/Ventilateur.jpeg" id="2_xp3o3"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_c7a6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_xp3o3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
