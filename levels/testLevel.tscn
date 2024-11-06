@@ -2,7 +2,7 @@
 
 [ext_resource type="TileSet" uid="uid://cjxdltl7u4gob" path="res://Pico-8 Platformer/tileSet.tres" id="1_j4a7g"]
 [ext_resource type="PackedScene" uid="uid://c5uvveujg21cs" path="res://props/Fan/Fan.tscn" id="2_0cxjl"]
-[ext_resource type="PackedScene" path="res://props/StaticSpring.tscn" id="3_x6fv3"]
+[ext_resource type="PackedScene" uid="uid://crt83kjbbn8la" path="res://props/Spring/StaticSpring.tscn" id="3_x6fv3"]
 
 [node name="TestLevel" type="Node2D"]
 
@@ -18,7 +18,7 @@ tile_map_data = PackedByteArray("AAAFAAYAAQACAAMAAAAFAAcAAQAFAAEAAAAFAAgAAQADAAU
 tile_set = ExtResource("1_j4a7g")
 
 [node name="Fan" parent="." instance=ExtResource("2_0cxjl")]
-position = Vector2(1062, 281)
+position = Vector2(1008, 303)
 
 [node name="StaticSpring" parent="." instance=ExtResource("3_x6fv3")]
 position = Vector2(645, 418)

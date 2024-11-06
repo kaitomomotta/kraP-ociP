@@ -10,6 +10,7 @@ size = Vector2(158, 202)
 size = Vector2(815.5, 129.5)
 
 [node name="Fan" type="StaticBody2D"]
+collision_mask = 2
 script = ExtResource("1_bpiem")
 
 [node name="Sprite2D" type="AnimatedSprite2D" parent="."]

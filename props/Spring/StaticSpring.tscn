@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://crt83kjbbn8la"]
 
-[ext_resource type="Script" path="res://props/static_spring.gd" id="1_1hy3y"]
+[ext_resource type="Script" path="res://props/Spring/static_spring.gd" id="1_1hy3y"]
 [ext_resource type="Texture2D" uid="uid://u5ipojnrnqnh" path="res://Pico-8 Platformer/Transparent/Tiles/tile_0015.png" id="2_d6f8m"]
 [ext_resource type="Texture2D" uid="uid://cpgjtna6eodmb" path="res://Pico-8 Platformer/Transparent/Tiles/tile_0030.png" id="2_psa3k"]
 
